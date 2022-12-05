@@ -30,15 +30,15 @@ public class Test0 {
 		driver.findElement(By.xpath("//div[text()='Login ']")).click();
 		
 //step:7 get the title
-		String title = driver.getTitle();
-		System.out.println(title);
+		String actualtitle = driver.getTitle();
+		System.out.println(actualtitle);
 		
 //step:8 get the current utl
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
 		
 //step:9 verfication
-		if(title.equals("actiTIME - Login")) {
+		if(actualtitle.equals("actiTIME - Login")) {
 			System.out.println("Pass:home page is dispalyed");
 		}
 		else
