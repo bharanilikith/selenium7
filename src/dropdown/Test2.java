@@ -26,13 +26,9 @@ public class Test2 {
 		
 		//deselection
 		
-		Thread.sleep(2000);
+
 		s.deselectByIndex(2);
-		
-		Thread.sleep(2000);
 		s.deselectByValue("i");
-		
-		Thread.sleep(2000);
 		s.deselectByVisibleText("vada");
 		
 	}
