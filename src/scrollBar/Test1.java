@@ -36,7 +36,7 @@ public class Test1 {
 	    //to perform click using javascriptexecutor
 //	    JavascriptExecutor js=(JavascriptExecutor) driver;
 //	    js.executeScript("arguments[0].click();",ele);
-//		
+		
 	    
 		
 	}
