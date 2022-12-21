@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Chats]]>
+      <![CDATA[Facebook – log in or sign up]]>
     </line>
     <line>
-      <![CDATA[Calls]]>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjkwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-20T08:28:32 IST" name="Default suite" finished-at="2022-12-20T08:28:32 IST" duration-ms="52">
+  <suite started-at="2022-12-21T08:31:19 IST" name="Suite" finished-at="2022-12-21T08:31:35 IST" duration-ms="15495">
     <groups>
     </groups>
-    <test started-at="2022-12-20T08:28:32 IST" name="Default test" finished-at="2022-12-20T08:28:32 IST" duration-ms="52">
-      <class name="Testng.Test2">
-        <test-method signature="chats()[pri:-1, instance:Testng.Test2@61386958]" started-at="2022-12-20T08:28:32 IST" name="chats" finished-at="2022-12-20T08:28:32 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-12-21T08:31:19 IST" name="Test3" finished-at="2022-12-21T08:31:29 IST" duration-ms="10137">
+      <class name="Testng.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:Testng.Parallel@67c33749]" started-at="2022-12-21T08:31:19 IST" name="demo" finished-at="2022-12-21T08:31:29 IST" duration-ms="10053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Chats]]>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
-        </test-method> <!-- chats -->
-        <test-method signature="calls()[pri:0, instance:Testng.Test2@61386958]" started-at="2022-12-20T08:28:32 IST" name="calls" finished-at="2022-12-20T08:28:32 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- demo -->
+      </class> <!-- Testng.Parallel -->
+    </test> <!-- Test3 -->
+    <test started-at="2022-12-21T08:31:19 IST" name="Test1" finished-at="2022-12-21T08:31:31 IST" duration-ms="11486">
+      <class name="Testng.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:Testng.Parallel@65f095f8]" started-at="2022-12-21T08:31:19 IST" name="demo" finished-at="2022-12-21T08:31:31 IST" duration-ms="11420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Calls]]>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjgzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
-        </test-method> <!-- calls -->
-      </class> <!-- Testng.Test2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- demo -->
+      </class> <!-- Testng.Parallel -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-12-21T08:31:19 IST" name="Test2" finished-at="2022-12-21T08:31:35 IST" duration-ms="15495">
+      <class name="Testng.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:Testng.Parallel@581ac8a8]" started-at="2022-12-21T08:31:19 IST" name="demo" finished-at="2022-12-21T08:31:35 IST" duration-ms="15446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTkxNjkwLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- Testng.Parallel -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
