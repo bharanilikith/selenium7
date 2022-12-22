@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 21 07:40:02 IST 2022</td>
+<td>Started on:</td><td>Thu Dec 22 07:50:43 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14322 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28124 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,65 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testng.Testcase1.tc1()'><b>tc1</b><br>Test class: Testng.Testcase1<br/>
+<a href="#Output-1531545666" onClick='toggleBox("Output-1531545666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1531545666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1531545666">
+Facebook – log in or sign up<br/>
+https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNjc1NjY0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [456tghgdhgfhj] but found [Facebook – log in or sign up]
+	at Testng.Testcase1.tc1(Testcase1.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1531545666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1531545666'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [456tghgdhgfhj] but found [Facebook – log in or sign up]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at Testng.Testcase1.tc1(Testcase1.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Testng.Testcase1@7ea9e1e2</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,24 +134,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Testng.Testcase3.tc3()'><b>tc3</b><br>Test class: Testng.Testcase3<br/>
-<a href="#Output-1516759394" onClick='toggleBox("Output-1516759394", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1516759394" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1516759394">
-Log in to Facebook<br/>
-https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>Testng.Testcase3@11bd0f3b</td></tr>
-<tr>
 <td title='Testng.Testcase2.tc2()'><b>tc2</b><br>Test class: Testng.Testcase2<br/>
-<a href="#Output-101740901" onClick='toggleBox("Output-101740901", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1881585646" onClick='toggleBox("Output-1881585646", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-101740901" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-101740901">
+<a href="#Output-1881585646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881585646">
 Forgotten Password | Can't Log In | Facebook<br/>
 https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0<br/>
 </div>
@@ -101,18 +147,18 @@ https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_log
 <td>1</td>
 <td>Testng.Testcase2@24fcf36f</td></tr>
 <tr>
-<td title='Testng.Testcase1.tc1()'><b>tc1</b><br>Test class: Testng.Testcase1<br/>
-<a href="#Output-1643646293" onClick='toggleBox("Output-1643646293", this, "Show output", "Hide output");'>Show output</a>
+<td title='Testng.Testcase3.tc3()'><b>tc3</b><br>Test class: Testng.Testcase3<br/>
+<a href="#Output-582702662" onClick='toggleBox("Output-582702662", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1643646293" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1643646293">
-Facebook – log in or sign up<br/>
-https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjcxNTg4NjA5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D<br/>
+<a href="#Output-582702662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-582702662">
+Log in to Facebook<br/>
+https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
-<td>Testng.Testcase1@7ea9e1e2</td></tr>
+<td>1</td>
+<td>Testng.Testcase3@11bd0f3b</td></tr>
 </table><p>
 </body>
 </html>
